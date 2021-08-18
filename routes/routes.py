@@ -1,12 +1,14 @@
 from fastapi import FastAPI
 from services.rpa import rpa
-import json
 from fastapi import APIRouter
 
+import json
 
 
+#atribuir o router
 router = APIRouter()
 
+#criar as rotas e definir as funções
 @router.get("/results")
 def results():
 
