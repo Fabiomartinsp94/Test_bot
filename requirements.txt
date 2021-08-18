@@ -1,0 +1,7 @@
+
+*python==3.9.1
+*fastapi==0.68.0
+*selenium==3.141.0
+*selenium-wire==4.2.4
+*uvicorn==0.15.0
+*webdriver-manager==3.4.2
