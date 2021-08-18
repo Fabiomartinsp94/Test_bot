@@ -16,6 +16,6 @@ Acessar esse site e pegar todos notebooks Lenovo ordenando do mais barato para o
 
 #### Funcionamento:
 1. Entrar na root folder e usar o comando **uvicorn main:app --reload**
-2. acessar a **localhost:8000/**, isso dará inicio ao bot
-3. assim que o bot for finalizado, a rota de resultados **localhost:8000/results** estará pronta para ser acessada
+2. acessar a **localhost:8000/api/**, isso dará inicio ao bot
+3. assim que o bot for finalizado, a rota de resultados **localhost:8000/api/results** estará pronta para ser acessada
 
