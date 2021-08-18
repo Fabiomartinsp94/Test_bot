@@ -1,8 +1,8 @@
-from fastapi import FastAPI, applications
+from fastapi import FastAPI
 from starlette.middleware.cors import CORSMiddleware
 from routes.routes import router as api_router
 
-
+#Definir a função, configurar o CORS, atribuir a classe a app
 def get_application() -> FastAPI:
     application = FastAPI()
 
@@ -17,5 +17,5 @@ def get_application() -> FastAPI:
     application.include_router(api_router, prefix="/api")
     return application
 
-
+#uvicorn main:app
 app = get_application()
